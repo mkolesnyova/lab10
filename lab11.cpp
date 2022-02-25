@@ -1,4 +1,4 @@
-﻿#include <iostream>;
+#include <iostream>;
 #include <cmath>;
 using namespace std;
 void ff(double &a, double &b);
@@ -9,6 +9,7 @@ void ff(double &a, double &b)
 	double p = a + b + c;
 	cout << " p= " << p << "; s= " << s;
 	cout << endl;
+	return;
 }
 int main()
 {
@@ -21,4 +22,5 @@ int main()
 	cin >> a2 >> b2;
 	ff(a2, b2);
 	cout << endl;
+	return 0;
 }
